@@ -1,0 +1,29 @@
+{
+	"name": "discord-github-webhooks",
+	"version": "1.0.0",
+	"description": "Posts events from github webhooks to discord.",
+	"author": "brussell98",
+	"main": "main.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/brussell98/Discord-GitHub-Events"
+	},
+	"bugs": {
+		"url": "https://github.com/brussell98/Discord-GitHub-Events/issues"
+	},
+	"engines": {
+		"node": ">=6.0.0"
+	},
+	"scripts": {
+		"start": "node main.js",
+		"test": "echo No test script"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"eris": "abalabahaha/eris",
+		"githubhook": ""
+	},
+	"devDependencies": {
+		"eslint": "*"
+	}
+}
